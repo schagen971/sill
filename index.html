@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>포미서비스 | AI SNS 마케팅의 새로운 기준</title>
+  <meta name="description" content="AI 기술로 SNS 마케팅의 새로운 기준을 제시하는 포미서비스. 기존 대비 50% 비용으로 200% 성과를 경험하세요.">
+  
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-light text-dark font-sans antialiased">
+  <!-- Navigation -->
+  <nav class="fixed top-0 w-full z-50 bg-light/90 backdrop-blur-sm border-b border-dark/10">
+    <div class="grid-container">
+      <div class="grid">
+          <div class="col-12 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+              <div class="w-8 h-8 bg-primary-dark rounded"></div>
+              <span class="text-xl font-bold">포미서비스</span>
+            </div>
+            
+            <!-- Desktop Menu -->
+            <div class="desktop-nav hidden md:flex items-center space-x-6">
+              <a href="#hero" class="nav-link">홈</a>
+              <a href="#service" class="nav-link">서비스</a>
+              <a href="#features" class="nav-link">기능</a>
+              <a href="#pricing" class="nav-link">가격</a>
+              <a href="#process" class="nav-link">프로세스</a>
+              <a href="#testimonials" class="nav-link">후기</a>
+              <a href="#cta" class="btn btn-accent px-4 py-2 rounded-lg text-white">무료 상담</a>
+            </div>
+            
+            <!-- Mobile Menu Button -->
+            <button id="mobileMenuBtn" class="md:hidden p-2">
+              <span class="block w-6 h-0.5 bg-dark mb-1"></span>
+              <span class="block w-6 h-0.5 bg-dark mb-1"></span>
+              <span class="block w-6 h-0.5 bg-dark"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    
+    <!-- Mobile Menu -->
+    <div id="mobileMenu" class="md:hidden hidden bg-light border-t border-dark/10">
+      <div class="grid-container">
+        <div class="grid">
+          <div class="col-12 py-4 space-y-4">
+            <a href="#hero" class="block nav-link">홈</a>
+            <a href="#service" class="block nav-link">서비스</a>
+            <a href="#features" class="block nav-link">기능</a>
+            <a href="#pricing" class="block nav-link">가격</a>
+            <a href="#process" class="block nav-link">프로세스</a>
+            <a href="#testimonials" class="block nav-link">후기</a>
+            <a href="#cta" class="block btn btn-accent px-4 py-2 rounded-lg text-white text-center">무료 상담</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="min-h-screen flex items-center justify-center bg-light">
+    <div class="container">
+      <div class="text-center max-w-4xl mx-auto reveal">
+        <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
+          AI가 만드는<br>
+          <span class="text-primary-dark">SNS 마케팅의 새로운 기준</span>
+        </h1>
+        <p class="text-lg md:text-xl lg:text-2xl text-dark/80 mb-8 leading-relaxed">
+          기존 대비 50% 비용으로<br>
+          200% 성과를 경험하세요
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <a href="#cta" class="btn btn-accent px-8 py-4 rounded-lg text-white text-lg font-semibold w-full sm:w-auto max-w-xs">
+            무료 상담 신청하기
+          </a>
+          <a href="#testimonials" class="btn btn-outline px-8 py-4 rounded-lg text-primary-dark border-primary-dark border-2 text-lg font-semibold w-full sm:w-auto max-w-xs">
+            성과 사례 보기
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Service Introduction -->
+  <section id="service" class="py-16 bg-dark text-white">
+    <div class="grid-container">
+      <div class="grid">
+        <div class="col-12 text-center mb-12">
+          <h2 class="text-3xl lg:text-4xl font-bold mb-4 reveal">
+            포미서비스가<br>특별한 이유
+          </h2>
+        </div>
+        
+        <div class="col-4 col-md-6">
+          <div class="card reveal">
+            <div class="text-4xl mb-4">🧠</div>
+            <h3 class="text-xl font-bold mb-3">AI 기술</h3>
+            <p class="text-white/80 leading-relaxed">
+              최신 AI 기술로 타겟 고객을 정확히 분석하고 최적화된 콘텐츠를 자동 생성합니다
+            </p>
+          </div>
+        </div>
+        
+        <div class="col-4 col-md-6">
+          <div class="card reveal">
+            <div class="text-4xl mb-4">💰</div>
+            <h3 class="text-xl font-bold mb-3">합리적 가격</h3>
+            <p class="text-white/80 leading-relaxed">
+              착수금 50% 절감, 성과 기반 비용 지불로 부담 없이 시작하세요
+            </p>
+          </div>
+        </div>
+        
+        <div class="col-4 col-md-6">
+          <div class="card reveal">
+            <div class="text-4xl mb-4">📊</div>
+            <h3 class="text-xl font-bold mb-3">실시간 리포트</h3>
+            <p class="text-white/80 leading-relaxed">
+              24시간 실시간으로 마케팅 성과를 확인하고 즉각적인 전략 수정이 가능합니다
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="py-16 bg-light">
+    <div class="grid-container">
+      <div class="grid">
+        <div class="col-12 text-center mb-12">
+          <h2 class="text-3xl lg:text-4xl font-bold mb-4 reveal">
+            AI가 해결하는<br>SNS 마케팅의 모든 것
+          </h2>
+        </div>
+        <div class="col-3 col-md-3">
+          <div class="feature-card reveal">
+            <div class="text-3xl mb-3">🎯</div>
+            <h3 class="text-lg font-bold mb-2">스마트 타겟팅</h3>
+            <p class="text-dark/70 text-sm">
+              AI가 분석한 고객 데이터로<br>
+              정확한 타겟 설정
+            </p>
+          </div>
+        </div>
+        
+        <div class="col-3 col-md-3">
+          <div class="feature-card reveal">
+            <div class="text-3xl mb-3">📝</div>
+            <h3 class="text-lg font-bold mb-2">자동 콘텐츠 생성</h3>
+            <p class="text-dark/70 text-sm">
+              트렌드 분석 기반<br>
+              맞춤형 콘텐츠 자동 제작
+            </p>
+          </div>
+        </div>
+        
+        <div class="col-3 col-md-3">
+          <div class="feature-card reveal">
+            <div class="text-3xl mb-3">🔮</div>
+            <h3 class="text-lg font-bold mb-2">성과 예측 시스템</h3>
+            <p class="text-dark/70 text-sm">
+              캠페인 시작 전<br>
+              예상 성과를 미리 확인
+            </p>
+          </div>
+        </div>
+        
+        <div class="col-3 col-md-3">
+          <div class="feature-card reveal">
+            <div class="text-3xl mb-3">⚡</div>
+            <h3 class="text-lg font-bold mb-2">리얼타임 최적화</h3>
+            <p class="text-dark/70 text-sm">
+              실시간 데이터 기반<br>
+              자동 전략 조정
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Section -->
+  <section id="pricing" class="py-16 bg-dark text-white">
+    <div class="container">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl lg:text-4xl font-bold mb-4 reveal">
+          투명하고 합리적인<br>가격 정책
+        </h2>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+        <div class="pricing-card reveal">
+          <h3 class="text-xl font-bold mb-6 text-center">기존 업체</h3>
+          <div class="space-y-4">
+            <div class="flex justify-between">
+              <span>착수금:</span>
+              <span class="font-bold">200만원~</span>
+            </div>
+            <div class="flex justify-between">
+              <span>월 관리비:</span>
+              <span class="font-bold">100만원~</span>
+            </div>
+            <div class="flex justify-between">
+              <span>성과 보장:</span>
+              <span class="font-bold text-red-400">없음</span>
+            </div>
+            <div class="flex justify-between">
+              <span>리포트:</span>
+              <span class="font-bold">월 1회</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="pricing-card pricing-card-featured reveal relative">
+          <div class="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-accent px-4 py-1 rounded-full text-sm font-bold">
+            추천
+          </div>
+          <h3 class="text-xl font-bold mb-6 text-center">포미서비스</h3>
+          <div class="space-y-4">
+            <div class="flex justify-between">
+              <span>착수금:</span>
+              <span class="font-bold text-accent">100만원~</span>
+            </div>
+            <div class="flex justify-between">
+              <span>월 관리비:</span>
+              <span class="font-bold text-accent">성과 기반</span>
+            </div>
+            <div class="flex justify-between">
+              <span>성과 보장:</span>
+              <span class="font-bold text-green-400">목표 미달성시 환불</span>
+            </div>
+            <div class="flex justify-between">
+              <span>리포트:</span>
+              <span class="font-bold text-green-400">실시간 대시보드</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="text-center mt-12 reveal">
+        <p class="text-2xl font-bold text-accent">
+          성과가 없으면<br>비용도 없습니다
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Process Section -->
+  <section id="process" class="py-16 bg-light">
+    <div class="grid-container">
+      <div class="grid">
+        <div class="col-12 text-center mb-12">
+          <h2 class="text-3xl lg:text-4xl font-bold mb-4 reveal">
+            간단한 4단계로<br>시작하는 AI 마케팅
+          </h2>
+        </div>
+        <div class="col-3 col-md-3">
+          <div class="process-step reveal">
+            <div class="process-number">1</div>
+            <h3 class="text-lg font-bold mb-2">무료 상담</h3>
+            <p class="text-dark/70 text-sm">
+              현재 상황 분석 및<br>
+              맞춤 전략 제안
+            </p>
+          </div>
+        </div>
+        
+        <div class="col-3 col-md-3">
+          <div class="process-step reveal">
+            <div class="process-number">2</div>
+            <h3 class="text-lg font-bold mb-2">AI 분석</h3>
+            <p class="text-dark/70 text-sm">
+              타겟 고객 분석 및<br>
+              최적 채널 선정
+            </p>
+          </div>
+        </div>
+        
+        <div class="col-3 col-md-3">
+          <div class="process-step reveal">
+            <div class="process-number">3</div>
+            <h3 class="text-lg font-bold mb-2">캠페인 실행</h3>
+            <p class="text-dark/70 text-sm">
+              AI 기반 콘텐츠 제작 및<br>
+              자동 운영 시작
+            </p>
+          </div>
+        </div>
+        
+        <div class="col-3 col-md-3">
+          <div class="process-step reveal">
+            <div class="process-number">4</div>
+            <h3 class="text-lg font-bold mb-2">성과 최적화</h3>
+            <p class="text-dark/70 text-sm">
+              실시간 데이터 기반<br>
+              지속적 개선
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="py-16 bg-dark text-white">
+    <div class="container">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl lg:text-4xl font-bold mb-4 reveal">
+          포미서비스와 함께<br>성장한 브랜드들
+        </h2>
+      </div>
+      
+      <div class="max-w-4xl mx-auto">
+        <div class="testimonial-card reveal text-center">
+          <div class="text-4xl mb-4">💬</div>
+          <blockquote class="text-xl leading-relaxed mb-6">
+            "착수금 부담이 적어서 시작했는데<br>
+            3개월 만에 매출이 2배 증가했습니다"
+          </blockquote>
+          <cite class="text-accent font-semibold">- 패션 쇼핑몰 A사 대표</cite>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section id="cta" class="py-16 bg-light">
+    <div class="container">
+      <div class="text-center max-w-3xl mx-auto mb-12">
+        <h2 class="text-3xl lg:text-5xl font-bold mb-6 reveal">
+          지금 시작하면<br>
+          <span class="text-accent">첫 달 50% 추가 할인</span>
+        </h2>
+        <p class="text-xl text-dark/80 mb-8 reveal">
+          AI가 만드는 차별화된 성과,<br>
+          무료 상담으로 확인하세요
+        </p>
+      </div>
+      
+      <div class="max-w-md mx-auto">
+        <!-- Contact Form -->
+        <form id="contactForm" class="space-y-4 reveal">
+          <div>
+            <input type="text" id="name" name="name" placeholder="이름" 
+                   class="form-input w-full px-4 py-3 rounded-lg border border-dark/20 focus:outline-none focus:border-primary" required>
+          </div>
+          <div>
+            <input type="email" id="email" name="email" placeholder="이메일" 
+                   class="form-input w-full px-4 py-3 rounded-lg border border-dark/20 focus:outline-none focus:border-primary" required>
+          </div>
+          <div>
+            <input type="tel" id="phone" name="phone" placeholder="연락처" 
+                   class="form-input w-full px-4 py-3 rounded-lg border border-dark/20 focus:outline-none focus:border-primary" required>
+          </div>
+          <div>
+            <textarea id="message" name="message" rows="4" placeholder="문의사항 (선택)" 
+                      class="form-input w-full px-4 py-3 rounded-lg border border-dark/20 focus:outline-none focus:border-primary resize-none"></textarea>
+          </div>
+          <button type="submit" class="btn btn-accent w-full px-8 py-4 rounded-lg text-white text-lg font-semibold">
+            지금 바로 상담 신청
+          </button>
+        </form>
+        
+        <div id="formMessage" class="mt-4 text-center hidden"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-12 bg-dark text-white">
+    <div class="grid-container">
+      <div class="grid">
+        <!-- 회사 정보 -->
+        <div class="col-3 col-md-6">
+          <div class="flex items-center space-x-2 mb-4">
+            <div class="w-6 h-6 bg-primary-dark rounded"></div>
+            <span class="text-lg font-bold">포미서비스</span>
+          </div>
+          <p class="text-white/80 text-sm mb-4">AI 기반 SNS 마케팅 전문</p>
+        </div>
+        
+        <!-- 연락처 -->
+        <div class="col-3 col-md-6">
+          <h4 class="font-bold mb-4">연락처</h4>
+          <div class="space-y-2 text-sm text-white/80">
+            <p>전화: 1588-0000</p>
+            <p>이메일: contact@formi.co.kr</p>
+            <p>카카오톡: @포미서비스</p>
+          </div>
+        </div>
+        
+        <!-- 운영시간 -->
+        <div class="col-3 col-md-6">
+          <h4 class="font-bold mb-4">운영시간</h4>
+          <div class="space-y-2 text-sm text-white/80">
+            <p>평일 09:00 - 18:00</p>
+            <p>주말/공휴일 휴무</p>
+          </div>
+        </div>
+        
+        <!-- 바로가기 -->
+        <div class="col-3 col-md-6">
+          <h4 class="font-bold mb-4">바로가기</h4>
+          <div class="space-y-2 text-sm">
+            <a href="#service" class="block text-white/80 hover:text-white">서비스 소개</a>
+            <a href="#pricing" class="block text-white/80 hover:text-white">가격 안내</a>
+            <a href="#testimonials" class="block text-white/80 hover:text-white">성공 사례</a>
+            <a href="#cta" class="block text-white/80 hover:text-white">자주 묻는 질문</a>
+          </div>
+        </div>
+      </div>
+      
+        <!-- 하단 -->
+        <div class="col-12 border-t border-white/20 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-white/60">
+          <p>&copy; 2025 포미서비스. All rights reserved.</p>
+          <div class="flex space-x-4 mt-4 md:mt-0">
+            <a href="terms.html" class="hover:text-white">이용약관</a>
+            <a href="privacy.html" class="hover:text-white">개인정보처리방침</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
